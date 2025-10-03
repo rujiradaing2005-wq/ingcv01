@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rujirada Rujirada</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap");
+      body {
+        margin: 0px;
+        padding: 0px;
+        background: #000000;
+      }
+
+      .menu-bar a {
+        text-decoration: none;
+        font-family: Monomaniac One;
+        color: #ffffff;
+        font-size: 1.3rem;
+        margin: 0px 10px; /*บน-ล่าง ซ้าย-ขวา*/
+      }
+      .menu-bar a:hover {
+        color: #ff8025;
+      }
+
+      .logo-bar img {
+        width: 75px;
+      }
+
+      .social-bar i {
+        font-size: 1.3rem;
+        margin: 0px 10px; /*บน-ล่าง ซ้าย-ขวา*/
+      }
+
+      .social-bar i:hover{
+        cursor: pointer;
+        color: #ffff00;
+      }
+
+      .sau-bar{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 100px;
+        padding: 16px 0px;
+        min-height: 80px;
+      }
+
+      .logo-bar{
+          position: absolute;
+          left: 50%;
+          top: 12px;
+          transform: translate(-50%);
+      }
+
+      .title-section{
+          text-align: center;
+          margin-top: 150px;
+      }
+
+      .title-section h1{
+        font-family: Monomaniac One;
+      }
+      .a-title{
+        font-size: 2rem;
+        color: #ffffff;
+      }
+      #job-title{
+        color: #01D5A2;
+      }
+      .img-section{
+          text-align: center;
+          margin-top: 20    px;
+      }
+      .img-show {
+        display: inline-block;
+        border: 2px solid #01D5A2;
+        width: 250px;
+        height: 250px;
+        border-radius: 250px;
+        padding: 10px;
+      }
+      .img-show img{
+        width: 250px;
+        height: 250px;
+        border-radius: 250px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- sau-bar -->
+    <div class="sau-bar">
+      <div class="menu-bar">
+        <a href="#">Portfolio</a>
+        <a href="#">About Me</a>
+        <a href="#">Get In Touch</a>
+      </div>
+      <div class="logo-bar">
+        <img src="./images/Logo.png" alt="logo" />
+      </div>
+      <div class="social-bar">
+        <i class="fa-brands fa-github" style="color: #ffffff"></i>
+        <i class="fa-brands fa-instagram" style="color: #ffffff"></i>
+        <i class="fa-brands fa-twitter" style="color: #ffffff"></i>
+        <i class="fa-brands fa-linkedin-in" style="color: #ffffff"></i>
+      </div>
+    </div>
+
+    <!-- Title-Section -->
+     <div class="title-section">
+        <h1 class="a-title">Rujirada Hongsingthong</h1>
+        <h1 id="job-title">Freelance Web Developer</h1>
+        <h1 class="a-title">Based in Thailand</h1>
+     </div>
+
+        <!-- img-section -->
+         <div class="img-section">
+            <div class="img-show">
+                <img src="./images/me.jpg" alt="me">
+            </div>
+         </div>
+  </body>
+</html>
